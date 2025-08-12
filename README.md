@@ -13,7 +13,7 @@ This repository contains code to generate Kaplan-Meier survival plots for patien
 
 ## Files
 
-- `06_08_DLI.ipynb`: Jupyter Notebook containing all code and visualizations
+- `Preemptive_vs_Therapeutic_DLI.ipynb`: Jupyter Notebook containing all code and visualizations
 - `requirements.txt`: Required Python packages
 - `LICENSE`: MIT License for open sharing and reuse
 
