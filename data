@@ -1,0 +1,27 @@
+# Data Availability & Expected Input
+
+No patient-level data are included in this repository due to privacy restrictions.
+This repository contains analysis code only.
+
+## Expected input format
+
+The analysis expects a local dataset with the following columns (exact names):
+
+**Required columns (used in the current notebook):**
+- `Preemptive vs. Therapeutic` — treatment group label (e.g., "preemptive" / "therapeutic" or 0/1; keep consistent)
+- `DLI to FU` — time from DLI to last follow-up (numeric; use the same units throughout, e.g., months or years)
+- `Death Status` — event indicator (`0` = censored, `1` = death)
+- `Diagnosis` — disease label (e.g., AML, sAML, MDS, ALL)
+
+**Optional columns (if you plan extended analyses):**
+- `Age` — age at allo-HCT (years)
+- `Sex` — **encoded numeric**: `0` = male (m), `1` = female (f)
+- `Time_to_Relapse` — time from allo-HCT to relapse (years)
+- `Days_from_Relapse_to_DLI` — days between relapse and first DLI
+- `GvHD_grade` — grade of aGvHD/cGvHD
+
+## File placement
+Place your local file in the `/data` folder as `input_data.csv` or `input_data.xlsx`.
+
+**Note:** All datasets must be fully anonymized before use with this code.
+
