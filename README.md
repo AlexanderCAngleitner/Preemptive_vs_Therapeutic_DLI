@@ -1,3 +1,6 @@
+Data Availability:
+This repository does not contain patient-level data due to privacy restrictions.
+The provided code is intended to be run on local datasets matching the input format described in data/README.md.
 
 # Kaplan-Meier Survival Plot for DLI Study
 
